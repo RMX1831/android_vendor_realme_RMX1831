@@ -1,5 +1,5 @@
 PRODUCT_SOONG_NAMESPACES += \
-    vendor/realme/
+    vendor/realme/RMX1831
 
 PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
