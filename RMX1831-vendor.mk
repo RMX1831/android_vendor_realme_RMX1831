@@ -1,6 +1,12 @@
+# Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/RMX1831
 
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+     ImsService 
+
+# Proprietary files
 PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/realme/RMX1831/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
