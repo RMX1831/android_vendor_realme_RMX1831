@@ -4,7 +4,12 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
-     ImsService 
+     ImsService \
+     EngineerMode
+
+# Permissions
+PRODUCT_COPY_FILES += \
+    vendor/realme/RMX1831/proprietary/etc/permissions/privapp-permissions-mediatek-engineer.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek-engineer.xml
 
 # Proprietary files
 PRODUCT_COPY_FILES += \
